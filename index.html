@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="game_login.js"></script>
+</head>
+<body>
+<center>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Math Quiz</a>
+        </div>
+      </nav>
+    <div class="col-lg-4 col-sm-8 col-xs-12 login_div1">
+		<h3 class="lab">Player 1 login for the game</h3>
+		<label for="#player1">username:</label>
+		<input type="text" id="player_1_name_input" id="player1" class="form-contorl" placeholder="player 1's Name"></input>
+		<br>
+		<h3 class="lab">Player 2 login for the game</h3>
+        <label for="#player2">username:</label>
+		<input type="text" id="player_2_name_input" id="player2" class="form-contorl" placeholder="player 2's Name"></input>
+    </div>
+	<button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+</center>
+</body>
+</html>
