@@ -16,7 +16,7 @@ float: none;
 text-align: left;
 }
 .container{
-    background-color: crimson;
+    background-color: rgb(220, 20, 60);
     width: 700px;
     height: 100%;
     border-radius: 10px;
