@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="game_page.css">
-    <script src="app.js"></script>
+    <script src="game_page.js"></script>
     </head>
 <body>
     <!DOCTYPE html>
@@ -20,31 +20,34 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game_page.css">
 </head>
 <body>
 	
-        <h4 id="player1_name">null : </h4><span id="player1_score"> 0</span>
+        <h4 id="player1_name"> : <span id="player1_score"> 0</span></h4>
         <br>
-        <h4 id="player2_name">null :</h4><span id="player2_score"> 0</span>
+        <h4 id="player2_name"> : <span id="player2_score"> 0</span></h4>
         <center>
     <div class="container">
 		<h2 style="color: #ffffff; padding-top: 10px;">Math Quiz!</h2>
 		<h3 id="player_question"></h3>
-		<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
 		<br>
 		<br>
+        <div id="output"></div>
 		<label style="font-size: 15px;">Send You number: <b style="color: white">try putting number greater than 5 </b></label>
         <br>
-		<input type="text" class="word" class="form-control" placeholder="Enter your number">
+		<input type="text" id="num1" class="form-control" placeholder="Enter your number">
         <br>
-        <input type="text" class="word" class="form-control" placeholder="Enter your number">
+        <input type="text" id="num2" class="form-control" placeholder="Enter your number">
 		<br>
     </div>
 		<button id="send" onclick="send()" class="btn btn-success" style="width:30%;"> Send </button>
     
 	</center>
 
-<script src="app.js"></script>
+<script src="game_page.js"></script>
 </body>
 </html>
 </body>
