@@ -16,6 +16,7 @@ document.getElementById("player_answer").innerHTML="Answer turn = "+player2_name
 function send(){
     num1=document.getElementById("num1").value;
     num2=document.getElementById("num2").value;
+    actual_answer=parseInt(num1)*parseInt(num2);
     console.log("number1 = "+num1+" | number2 = "+num2);
 
     question=num1+" x "+num2;
