@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(220, 20, 60);
+}
+#word{
+	width: 60%;
+}
+#word_display{
+	letter-spacing: 5px;
+}
+#output{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.container{
+    width: 700px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 0px;
+}
+#num1,#num2{
+    margin: 20px;
+}
+label{
+    margin-top: 40px;
+}
+#send{
+    margin: 25px;
+}
+#player1_name,#player2_name,#player1_score,#player2_score{
+    color: white;
+}
